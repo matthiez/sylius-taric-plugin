@@ -1,0 +1,8 @@
+parameters:
+  sylius.form.type.product.validation_groups: [ecolos_sylius_taric_plugin_product]
+
+services:
+  ecolos_sylius_taric_plugin.form.extension.type.product:
+    class: Ecolos\SyliusTaricPlugin\Form\Extension\ProductTypeExtension
+    tags:
+      - { name: form.type_extension, extended_type: Sylius\Bundle\ProductBundle\Form\Type\ProductType }

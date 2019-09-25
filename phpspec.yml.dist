@@ -1,0 +1,4 @@
+suites:
+    main:
+        namespace: Ecolos\SyliusTaricPlugin
+        psr4_prefix: Ecolos\SyliusTaricPlugin
