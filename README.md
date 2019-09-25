@@ -38,7 +38,7 @@
 6. Add to config/services.yaml
     ```yaml
     imports:
-      - { resource: "@EcolosSyliusTaricPlugin/Resources/config/config.yml" }
+      - { resource: "@EcolosSyliusTaricPlugin/Resources/config/services.yml" }
     ```
 
 7. Edit src/Entity/Product.php
